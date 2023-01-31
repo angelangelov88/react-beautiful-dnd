@@ -52,7 +52,7 @@ const Roles = () => {
 
   return ( 
     <div className="m-5">
-    <h1>Roles:</h1>
+    <h1>react-beautiful-dnd</h1>
     <DragDropContext onDragEnd={handleOnDragEnd}>
       <Droppable droppableId="roles">
       {(provided) => (
